@@ -1,0 +1,21 @@
+.topnav{
+    width: 100%;
+    height: 50px;
+    /*display: flex;*//*block*/
+    background: #003371;
+}
+.topnav a{
+    float: left;
+    color: aquamarine;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+.topnav a:hover{
+    background-color: cadetblue;
+    color: black;
+}
+.topnav a.active {
+    background-color: #5436b4;
+    color: white;
+}
