@@ -2,7 +2,10 @@ body{
     background-color: #88ada6;
 }
 .topnav{
-    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
     height: 50px;
     /*display: flex;*//*block*/
     background: #003371;
@@ -21,4 +24,19 @@ body{
 .topnav a.active {
     background-color: #5436b4;
     color: white;
+}
+.rightsidebar{
+    position: absolute;
+    right: 0%;
+    top: 50px;
+    bottom: 0;
+    width: 178px;
+    background-color: darkcyan;
+}
+.main{
+    position: absolute;
+    left: 0px;
+    right: 178px;
+    top: 50px;
+    width: fit-content;
 }
