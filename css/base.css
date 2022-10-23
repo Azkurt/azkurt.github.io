@@ -33,7 +33,7 @@ body{
     bottom: 0;
     width: 178px;
     background-color: darkcyan;
-    z-index: 999;
+    z-index: 998;
 }
 .main{
     position: absolute;
